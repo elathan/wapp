@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title><%= title %></title>
+<link rel='stylesheet' type='text/css' href='/css/neet.css'/>
+</head>
+
+<body>
+  
+<div id=header>
+<div style="padding:2px;">
+  <div style="float:right">
+    <a href='pages/about'>About Us</a> |
+    <b><a href='/<%= user %>'><%= user %></a></b> | <a href='/logout'>Sign out</a>&nbsp;&nbsp;
+  </div>
+</div>
+</div>
+
+<div id="logo">
+  <span 
+    style='position: absolute; top:35; color: #C00;'>x<span 
+      style='color: #000;'>Hunter</span>
+  </span>
+</div>
+
+<div id=main>
+    
+   <div style='width: 49.9%'>
+      <div id="neetbox">
+      <b class="rtop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+          <h2>What is xHunter?</h2>
+      <b class="rbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+      </div>
+    </div>
+
+
+      <div id="neetbox">
+      <b class="rtop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>    
+        <form action='javascript: xhunt();' method=POST>
+          <div id='fancylabel'>
+            URL<br/>
+            <input class='text' name='url' id='url' size='35' />
+            <input class='button' type="submit" value="Process">
+          </div>
+    
+        </form>
+            
+      <b class="rbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+      </div>
+    
+
+    
+      <div id="neetbox">
+      <b class="rtop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+      
+        <div id='examples'>Examples</div>
+      
+      <b class="rbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+      </div>
+
+      <div id='footer'>
+        <span style='color: #C00;'>x</span>
+        <span style='color: #000;'><b>Hunter</b></span>
+        (c)
+        <a href='mailto:elathan@ics.forth.gr'>Elias Athanasopoulos</a>, 2009-2010.
+      </div>
+      
+</div>
+
+</body>
+</html>

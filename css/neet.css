@@ -1,0 +1,240 @@
+body {
+  font-family:arial,sans-serif;
+  background-color: #ccc;
+  height: 100%;
+  padding-bottom:40px;
+}
+
+html div#logo{
+  position:absolute;  
+  top:0;
+  right: 38%;
+  z-index: 10;
+  font-size: 60px;
+  font-family: "Courier";
+  font-weight: bold;
+}
+
+html div#header{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:25px;
+  background:#DDDDDD;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  
+}
+
+html div#footer{
+  margin-bottom: -5%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width:100%;
+  height:10px;
+  font-size: 8pt;
+}
+
+
+html div#main{
+  overflow: visible; 
+  margin-top: 7%;
+  margin-left: 2%; 
+  margin-right: 15%;
+  min-height: 100%;
+  position: relative;
+}
+
+div#entry {
+  position:relative;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #E7E7E7;
+
+}
+
+div#author {
+  font-size:0.8em;
+  position:absolute;
+  top:0;
+  left:0;
+  padding-top:3px;
+}
+
+div#timestamp {
+  position:absolute;
+  top:0;
+  right:0;
+  font-size:0.5em;
+  padding-top:8px;
+}
+
+
+div#cmd-trash {
+  text-align: right;
+	margin-right: 14px;
+	font-size: 0.8em;
+}
+
+div#label {
+  margin: 10px;
+  color: #000;
+}
+
+div#examples {
+  margin: 10px;
+  color: #A00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div#box {
+  width: 50%;
+  margin-bottom: 10px;
+  background-color: #DDDDDD;
+  border: solid;
+  border-color: #AAAAAA;
+  border-width: 1px;
+}
+
+div#pager-button {
+  cursor: pointer;
+  width: 40px;
+  margin: 10px;
+  border: dashed;
+  border-color: #AAAAAA;
+  border-width: 1px;
+}
+
+div#gap {
+	position:relative;
+	height: 40px;
+}
+
+img.floatLeft { 
+  float: left; 
+  margin-right: 6px; 
+}
+
+img.floatRight { 
+  float: right; 
+  margin-left: 6px; 
+}
+
+img {
+	border: none;
+}
+
+input.text 
+{
+  background-color: #FFFFFF;
+  font: 90.01% "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-weight: bold;
+  border: 1px solid #999999;
+}
+
+input.button 
+{
+  background-color: #FFFFFF;
+  font: 90.01% "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-weight: bold;
+  border: 1px dashed #999999;
+}
+
+
+input.stext 
+{
+  background-color: #FFFFFF;
+  font: 70.01% "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-weight: bold;
+  border: 1px solid #999999;
+}
+
+span#sz0 {
+  font-size: 0.4em;
+}
+
+span#sz1 {
+  font-size: 0.8em;
+}
+
+span#sz2 {
+  font-size: 1em;
+}
+
+span#sz3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+/* Rounded Corners.  */
+
+div#neetbox {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2%;
+  
+  background: #FFF;
+  font: 90.01% "Trebuchet MS",Verdana,Arial,sans-serif;  
+}
+
+div#sneetbox {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2%;
+  
+  background: #FFF;
+  font: 70.01% "Trebuchet MS",Verdana,Arial,sans-serif;  
+}
+
+b.rtop, b.rbottom {display:block; background: #ccc}
+b.rtop b, b.rbottom b {display: block; height: 1px; overflow: hidden; background: #FFF}
+
+b.rtop2, b.rbottom2 {display:block; background: #ccc}
+b.rtop2 b, b.rbottom2 b {display: block; height: 2px; overflow: hidden; background: #2F2F2F}
+
+b.r1 {margin: 0 5px}
+b.r2 {margin: 0 3px}
+b.r3 {margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4 {margin: 0 1px; height: 2px}
+
+h1, h2, p {margin: 0 10px}
+
+div #fancylabel {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 250%;
+  color: #AAA;
+  padding-top: 10px;
+}
+
+div #cuteurl {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 250%;
+  color: #A00;
+  padding-top: 10px;
+}
+
+h2{font-size: 200%;color: #A0A0A0}
+p{padding-bottom:1em}
+h2{padding-top: 0.3em}
+h3{color: #f00;}

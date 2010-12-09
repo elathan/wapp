@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Home</title>
+<link rel='stylesheet' type='text/css' href='/css/neet.css'/>
+</head>
+
+<body>
+
+<div>Logged in as: <b><%= loginCookie %></div><br />
+
+<div>
+  <form name="input" action="/login" method="get">
+    Username: <input type="text" name="username" /><br />
+    <!--Password: <input type="password" name="password" /><br />-->
+    <input type="submit" value="Sign in" />
+  </form>
+</div>
+
+<div><a href='/logout'>Sign out</></div>
+
+</body>
+</html>
