@@ -1,3 +1,8 @@
+#
+# A template for web applications based on Ruby.
+#
+# --elathan
+
 require 'rubygems'
 require 'webrick'
 require 'erubis'
